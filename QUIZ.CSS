@@ -1,0 +1,193 @@
+:root{
+    --red:red;
+    --blue:rgb(88, 62, 255);
+    --yallow:rgb(196, 217, 40);
+}
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 16px;
+}
+main{
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    background:linear-gradient(var(--blue) , rgb(255, 255, 255));
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    width: 250px ;
+    height: 150px;
+    padding: 5px;
+    margin-left: -10px;
+    margin: -30px 0;
+    aspect-ratio: 35 / 4;
+}
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+
+}
+li> a {
+    color: inherit;
+
+    
+}
+.info{
+    padding-top: 60px;
+}
+hr{
+    height: 4px;
+    background-color:   rgb(152, 156, 182);
+}
+.mulite{
+    display: block;
+    line-height: 30px;
+}
+.info-input{
+    display:inline-block;
+    width: 50%;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 4PX;
+}
+.info-label{
+display: inline;
+text-align: right;
+}
+label[for="date"]{
+    padding-left: 10px;
+}
+
+fieldset{
+    border: none;
+}
+h2{
+    font-size: 40px;
+    color: var(--yallow) ;
+    margin-bottom: -7px;
+    padding-top: 20px;
+}
+figcaption{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 30xp;
+}
+fieldset{
+    padding: 15px;
+}
+footer {
+    background:linear-gradient(360deg , var(--blue) , rgb(255, 255, 255));
+    display: flex;
+    justify-content: center;
+
+  }
+address{
+    font-size: 18px;
+    align-items: center;
+    margin: 0 auto;
+    color: black;
+    padding: 10PX;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+textarea{
+    margin-bottom: 20px ;
+    display: block;
+}
+.textarea-label{
+    font-size: 20px;
+}
+h1{
+    font-weight: 700;
+}
+button{
+    display: block;
+    height: 50px;
+    width: 9%;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 7px;
+    background-color:   rgba(231, 234, 235, 0.795);
+}
+button:hover{
+    cursor:pointer;
+    background-color: var(--yallow);
+}
+nav > ul > li:hover {
+    background-color: var(--yallow);
+    color: #131324;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 3px;
+    
+
+  }
+a > li{
+    padding: 20px;
+    align-items: center;
+}
+nav > ul > li {
+    color: #090911;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  .line{
+    margin-top: -45px;
+    margin-bottom: 0;
+    margin-left: 0px;
+    width: 250px;
+    border-bottom: 3px solid var(--red);
+    height: 0;
+}.RED{
+    color: var(--red);
+}
+.logo-small{
+    font-size: 18px;
+    width: 300px;
+    margin-top: 1px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    }
+    .logo-big{
+        display: flex;
+        padding-left: 27px;
+        font-size: 40px;
+        letter-spacing: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        
+    }
+    .logo-con{
+        margin-top: -30px;
+        padding-left:10px;
+    }
